@@ -13,4 +13,7 @@ marks.insert(2, 55) # O(n) add anywhere"""
 """marks.pop() # delete last item O(1)
 marks.pop(3) #delete any item O(n)
 marks.remove(69) #delete item by value O(n)"""
-print(marks)
+
+
+# O(k)-> slicing
+print(marks[1:4])
