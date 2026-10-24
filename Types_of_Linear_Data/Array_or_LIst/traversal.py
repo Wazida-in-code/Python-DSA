@@ -18,3 +18,17 @@ for mark in marks[:: -1]:
 for mark in range(len(marks) -1, -1, -1):
     print(marks[mark])"""
 
+
+# nested Loops
+
+# It is o(n^2) -> bad way
+stu_marks = [
+    [85, 89, 95],
+    [90, 97, 99],
+    [79, 99, 97]
+]
+
+for mark in stu_marks:
+    for nums in mark:
+        print(nums, end= " ")
+    print()
